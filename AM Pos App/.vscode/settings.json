@@ -1,0 +1,21 @@
+{
+    "cSpell.enableFiletypes": [
+        "al"
+    ],
+    "al.assemblyProbingPaths": [
+        "./.netpackages",
+        "./.netpackages/ZXing",
+        "./.netpackages/Nextech.Alta.Net",
+        "C:/Program Files/Assemblies",
+        "C:/Windows/assembly",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/200/Service/Add-ins/Nextech",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/210/Service/Add-ins/Nextech",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/210/Service/Add-ins/Nextech.Alta.Net"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.commandCenter": true,
+    "al-test-runner.sendDebugTelemetry": false,
+    "cSpell.words": [
+        "Nextech"
+    ]
+}

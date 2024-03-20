@@ -1,0 +1,55 @@
+{
+  "id": "3ae7dba3-90db-469c-bf4b-c10d1615963f",
+  "name": "AM POS App",
+  "publisher": "Nextech AlphaMega",
+  "version": "22.2.0.0",
+  "brief": "Alphamgea ",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id" : "5ecfc871-5d82-43f1-9c54-59685e82318d",
+    "publisher": "LS Retail",
+    "name": "LS Central",
+    "version": "22.2.0.0"
+    },
+    {
+      "id" : "2a0547fa-f60f-401d-b1fe-c7c4be8fb230",
+      "publisher": "LS Retail",
+      "name": "LS Central System App",
+      "version": "22.2.0.0"
+      },
+      {
+        "id": "f84f3559-ba7c-4705-8fb9-59b951d7add3",
+        "publisher": "Nextech AlphaMega",
+        "name": "AM POS Base",
+        "version": "22.2.0.0"
+      },
+      {
+        "id": "eb20bfb5-aa6a-43b4-9c33-1498df08cb32",
+        "name": "Nextech EFT",
+        "publisher": "Nextech LTD",
+        "version": "22.2.0.0"
+      }    
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 60301,
+      "to": 60400
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "target": "OnPrem"
+ }

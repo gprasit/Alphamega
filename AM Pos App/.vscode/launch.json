@@ -1,0 +1,67 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BC220-SERVER-152",
+            "request":"attach",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "https://10.20.0.152",
+            //"server": "http://10.20.0.142",
+            "serverInstance": "BC220",
+            "port": 7049,
+            //"port": 7059,
+            "authentication": "UserPassword",
+            "breakOnNext": "WebClient",
+            //"breakOnError": true,
+            //"launchBrowser": true,
+            
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true            
+            
+        },
+        {
+            "name": "ODATA",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://10.20.0.51",
+            "serverInstance": "BC220",
+            "port": 7059,
+            "authentication": "Windows",
+            "breakOnError": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            //"breakOnNext": "WebServiceClient"
+        },
+        {
+            "name": "WebServiceSOAP",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "https://10.20.0.151",
+            "serverInstance": "BCWS220",
+            "port": 7079,
+            "authentication": "UserPassword",
+            "breakOnError": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "breakOnNext": "WebServiceClient"
+        },
+        {
+            "name": "BC220-NAS",
+            "request": "attach",
+            "type": "al",            
+            "environmentType": "OnPrem",
+            "server": "http://10.20.0.142",
+            "serverInstance": "BC220-NAS",
+            "port": 8079,
+            "authentication": "Windows",
+            "breakOnError": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "breakOnNext": "Background"
+        }
+
+    ]
+}
