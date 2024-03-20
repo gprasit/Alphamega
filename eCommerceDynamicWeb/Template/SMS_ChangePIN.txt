@@ -1,0 +1,1 @@
+﻿%NAME% your new AlphaMega Loyalty Card PIN is %PIN%

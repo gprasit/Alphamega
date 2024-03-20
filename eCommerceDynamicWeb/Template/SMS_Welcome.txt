@@ -1,0 +1,1 @@
+﻿%NAME% welcome to AlphaMega. As a welcome gift you get %BONUSPOINTS% points bonus. Your Card Number is %CARDNO% and your PIN is %PIN%

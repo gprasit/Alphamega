@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+                        
+        {
+            "name": "Your own server",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "OnPrem",            
+            "server": "https://10.20.0.152",
+            // "serverInstance": "BC200", 
+            //"server": "http://10.20.0.142",
+            "port": 7049,
+            "serverInstance": "BC220", 
+            "authentication": "UserPassword",                   
+            "breakOnError": true,                        
+           //"launchBrowser": true,
+           "breakOnNext": "WebClient",
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "SOAPDebug",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://10.20.0.142",
+            "serverInstance": "BCWS220", 
+            "port": 7079,
+            "authentication": "UserPassword",                    
+            "breakOnError": true,                 
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "breakOnNext": "WebServiceClient",
+            "tenant": "default"
+        },
+        {
+            "name": "WebServiceDebug_ODATA",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://10.20.0.142",
+            "serverInstance": "BCWS220", 
+            "port": 7079,
+            "authentication": "UserPassword",                    
+            "breakOnError": true,                 
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "breakOnNext": "WebServiceClient"            
+        }
+    ]
+}

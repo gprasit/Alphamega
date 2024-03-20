@@ -1,0 +1,1 @@
+﻿Your AlphaMega redemption Voucher details:%VOUCHERNO% Item No:%ITEMNO% Title:%DESCRIPTION% Points Redemed:%POINTSREDEEMED%

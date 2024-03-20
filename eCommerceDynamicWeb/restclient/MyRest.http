@@ -1,0 +1,5 @@
+POST http://10.20.0.142:7058/BC200P/ODataV4/eCommerceDynamicWeb2_GetCustBalance?company=4cd49f53-c33f-ed11-a6c1-00505696fa04
+Content-Type: application/json
+Authorization: Basic nextech:9YEttJEoltcEbA/zRy04g07B5TPauZc11sDRMKDS2wo=
+
+{"custid":"44020"}

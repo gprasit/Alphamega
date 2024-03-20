@@ -1,0 +1,49 @@
+{
+  "id": "861a3db8-ad27-406d-8dcc-b8282de9ea37",
+  "name": "eCommerceFileExports",
+  "publisher": "Nextech AlphaMega",
+  "version": "22.2.0.0",
+  "brief": "file export management to strong point",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id" : "5ecfc871-5d82-43f1-9c54-59685e82318d",
+    "publisher": "LS Retail",
+    "name": "LS Central",
+    "version": "22.2.0.0"
+    },
+    {
+      "id" : "2a0547fa-f60f-401d-b1fe-c7c4be8fb230",
+      "publisher": "LS Retail",
+      "name": "LS Central System App",
+      "version": "22.2.0.0"
+      },      
+      {
+        "id": "f84f3559-ba7c-4705-8fb9-59b951d7add3",
+        "publisher": "Nextech AlphaMega",
+        "name": "AM POS Base",
+        "version": "22.2.0.0"
+      }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.2.0.0",
+  "idRanges": [
+    {
+      "from": 60201,
+      "to": 60300
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "target": "OnPrem"
+ }
